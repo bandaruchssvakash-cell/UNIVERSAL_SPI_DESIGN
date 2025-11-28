@@ -13,7 +13,7 @@ A robust, synthesizable Serial Peripheral Interface (SPI) Master and Slave imple
   - **Hardware:** Tested on Digilent Basys 3 (Artix-7 FPGA).
 
 ## Project Structure
-- `rtl/` : Synthesizable Verilog source files (`spi_master.v`, `spi_slave.v`, `FPGA_Top.v`).
+- `rtl/` : Synthesizable Verilog source files (`spi_master.v`, `spi_slave.v`, `Top.v`).
 - `sim/` : Testbench files (`tb_spi.v`).
 - `constraints/` : XDC constraints for Basys 3 board.
 
